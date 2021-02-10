@@ -1,6 +1,4 @@
-FROM registry.redhat.io/ubi8/openjdk-11:latest
-#FROM default-route-openshift-image-registry.apps.cluster-7eb4.7eb4.example.opentlc.com/openshift/java:11
-#FROM jboss/base-jdk:11
+FROM registry.access.redhat.com/ubi8/openjdk-11:latest
 
 MAINTAINER Erik Jacobs <erikmjacobs@gmail.com>
 MAINTAINER Siamak Sadeghianfar <siamaksade@gmail.com>
